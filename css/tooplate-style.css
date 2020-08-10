@@ -119,7 +119,7 @@ p {
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
 }
 .navbar-brand .logo{
-	margin-top: 22px;
+	margin-top: 13px;
 	/*background-image: url(../img/white_logo.png);*/
 	background-image: url(../img/SitacommerLOGOTIPO.png);
 	display: inline-block;
@@ -133,7 +133,7 @@ p {
   	min-width:50px;
 }
 .header.active .navbar-brand .logo{
-	margin-top: 22px;
+	margin-top: 13px;
 	background-image: url(../img/SitacommerLOGOTIPO.png);
 	display: inline-block;
 	/*width: 125px;
@@ -323,7 +323,8 @@ ul.cd-hero-slider {
 
 
 #what-we-do {
-	background-image: url(../img/what-we-do-bg.png);
+	/*background-image: url(../img/what-we-do-bg.png);*/
+
 	width: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -334,8 +335,21 @@ ul.cd-hero-slider {
 #what-we-do .right-image img {
 	/*width: 100%;*/
 	width: 30%;
-	height: 30%;
+	height: 30%;	
+  margin-left: auto;
+  margin-right: auto;
 	overflow: hidden;
+	display: block;
+}
+
+#what-we-do .left-image img {
+  /*width: 100%;*/
+  width: 50%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  display: block;
 }
 
 #what-we-do h4 {
@@ -348,7 +362,7 @@ ul.cd-hero-slider {
 
 #what-we-do p {
 	margin-bottom: 30px;
-	color: #fff;
+	color: #000000;
 }
 
 #what-we-do ul li {
