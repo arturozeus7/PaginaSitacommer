@@ -70,55 +70,132 @@
 .pricing-table .features .feature {
   font-weight: 600; }
 
-.pricing-table .features h4 {
-  text-align: center;
-  font-size: 18px;
-  padding: 5px; 
+  .pricing-table .features h4 {
+    text-align: center;
+    font-size: 18px;
+    padding: 5px; 
+  }
+
+  .pricing-table .price h4 {
+    margin: 15px 0;
+    font-size: 45px;
+    text-align: center;
+    color: #2288f9; 
+  }
+
+  .pricing-table .buy-now button {
+    text-align: center;
+    margin: auto;
+    font-weight: 600;
+    padding: 9px 0; 
+  }
+
+
+  .flotante {
+    display:scroll;
+    position:fixed;
+    bottom:50px;
+    right:0px;
+    width:55px;
+    height:55px;
+    margin-right:18px;
+    margin-bottom:30px;
+    border:none;
+    outline:none;
+    font-size:36px;
+  }
+
+
+
+
+  @font-face {
+    font-family: 'NissanBrand-Regular';
+    src: url('../fonts/NissanBrand-Regular.eot');
+    src: url('../fonts/NissanBrand-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NissanBrand-Regular.woff2') format('woff2'),
+        url('../fonts/NissanBrand-Regular.woff') format('woff'),
+    url('../fonts/NissanBrand-Regular.ttf')  format('truetype'),
+        url('../fonts/NissanBrand-Regular.svg#NissanBrand-Regular') format('svg');
+    font-weight: 300;
+    font-style: normal;
 }
 
-.pricing-table .price h4 {
-  margin: 15px 0;
-  font-size: 45px;
-  text-align: center;
-  color: #2288f9; 
+
+
+body {
+    font-family: 'NissanBrand-Regular';
+    /*color: #93989B;*/
+  color: #222;
+    line-height: 1.5em;
+    overflow-x: hidden;
+    margin: auto;
+    background: #fff;
+}
+html,
+body {
+    height: 100%
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333;
+    font-family: 'NissanBrand-Regular';
+    font-weight: 600;
+}
+a {
+    color: #30A3F0;
+    font-family: 'NissanBrand-Regular';
+    text-decoration: none;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+a:focus,
+a:hover {
+    color: #30A3F0;
+    text-decoration: none;
+}
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+p {
+    line-height: 26px;
+    margin-bottom: 0;
+}
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+fieldset {
+    border: 0 none;
+    margin: 0 auto;
+    padding: 0;
 }
 
-.pricing-table .buy-now button {
-  text-align: center;
-  margin: auto;
-  font-weight: 600;
-  padding: 9px 0; 
-}
 
-
-
-.chat-container{
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  max-width: 340px;
-  height: auto;
-  position: fixed;
-  bottom: 0;
-  right: 15px;
-  z-index: 999;
-}
-
-
-.chat-button{
-  width: 100%;
-  margin: 0;
-  cursor: pointer;
-  user-select: none;
-  padding: 4px 0;
-  background-color: #337AB7;
-  text-aling: center;
+.contacto {
   color: #fff;
 }
 
-.chat-content{
-  margin: 0;
-  padding: 0;
-  display: none;
-  background-color: #fff;
+.contacto h4{
+  color: #fff;
 }
+
+.social-icons h4{
+  color: #fff;
+}
+
+.social-icons {
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  
+}
+
+
+
